@@ -1,16 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --background-color: #573824;
     --surface-color: #F0E8C2;
     --text-color-primary: #291B1A;
     --text-color-secondary: #573A37;
     --text-color-on-bg: #F0E8C2;
-
-}
-
-* {
     font-family: "Alice", serif;
     box-sizing: border-box;
 }
+
+
 
 body {
     background-image: url('public/bg-image.png');
@@ -29,6 +33,14 @@ body {
     margin: 48px auto;
 }
 
+#page p + p {
+    margin-top: 12px;
+}
+
+#about, #ingredients {
+    margin-bottom: 24px;
+}
+
 img {
     border-radius: 16px;
     max-width: 100%;
@@ -36,12 +48,29 @@ img {
 
 h1, h2 {
     color: var(--text-color-primary);
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 140%;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+ul {
+    margin-left: 24px;
 }
 
 p, li {
     color: var(--text-color-secondary);
+    line-height: 150%;
+    font-size: 16px;
 }
 
 main {
-    
+    padding: 24px;
 }
