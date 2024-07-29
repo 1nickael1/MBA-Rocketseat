@@ -4,3 +4,4 @@ Projeto 3 - [Portal de Notícias](https://1nickael1.github.io/MBA-Rocketseat/por
 Projeto 4 - [Formulário de Matrícula](https://1nickael1.github.io/MBA-Rocketseat/formularioMatricula/)\
 Projeto 5 - [Zingen](https://1nickael1.github.io/MBA-Rocketseat/zingen/)\
 Projeto 6 - [LP Patins Animada](https://1nickael1.github.io/MBA-Rocketseat/patins/)\
+Projeto 7 - [Conversor de moedas](https://1nickael1.github.io/MBA-Rocketseat/convert/)\
